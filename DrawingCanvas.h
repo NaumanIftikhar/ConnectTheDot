@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface DrawingCanvas : UIView{
 
@@ -30,6 +32,11 @@
     IBOutlet UIImageView *dotImage13;
     IBOutlet UIImageView *dotImage14;
     IBOutlet UIImageView *dotImage15;
+    
+    
+    AVAudioPlayer * pageEffect;
+    AVAudioPlayer * backgroundMusic;
 }
+@property(strong,nonatomic) MPMoviePlayerController * moviePlayer;
 
 @end

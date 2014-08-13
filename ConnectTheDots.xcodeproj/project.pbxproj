@@ -31,6 +31,8 @@
 		419ABB19199B647D00A1F96B /* msgs.png in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB10199B647D00A1F96B /* msgs.png */; };
 		419ABB1A199B647D00A1F96B /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB11199B647D00A1F96B /* restart.png */; };
 		419ABB1B199B647D00A1F96B /* splash screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB12199B647D00A1F96B /* splash screen.png */; };
+		419ABB1D199BF85000A1F96B /* Marbloro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB1C199BF85000A1F96B /* Marbloro.mp4 */; };
+		419ABB1F199BFB8100A1F96B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419ABB1E199BFB8100A1F96B /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		419ABB10199B647D00A1F96B /* msgs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msgs.png; sourceTree = "<group>"; };
 		419ABB11199B647D00A1F96B /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
 		419ABB12199B647D00A1F96B /* splash screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash screen.png"; sourceTree = "<group>"; };
+		419ABB1C199BF85000A1F96B /* Marbloro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marbloro.mp4; sourceTree = "<group>"; };
+		419ABB1E199BFB8100A1F96B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419ABB1F199BFB8100A1F96B /* AVFoundation.framework in Frameworks */,
 				419ABAD5199B634D00A1F96B /* CoreGraphics.framework in Frameworks */,
 				419ABAD7199B634D00A1F96B /* UIKit.framework in Frameworks */,
 				419ABAD3199B634D00A1F96B /* Foundation.framework in Frameworks */,
@@ -122,6 +127,7 @@
 		419ABAD1199B634D00A1F96B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				419ABB1E199BFB8100A1F96B /* AVFoundation.framework */,
 				419ABAD2199B634D00A1F96B /* Foundation.framework */,
 				419ABAD4199B634D00A1F96B /* CoreGraphics.framework */,
 				419ABAD6199B634D00A1F96B /* UIKit.framework */,
@@ -149,6 +155,7 @@
 		419ABAD9199B634D00A1F96B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				419ABB1C199BF85000A1F96B /* Marbloro.mp4 */,
 				419ABB0A199B647D00A1F96B /* bg.png */,
 				419ABB0B199B647D00A1F96B /* blank strip.png */,
 				419ABB0C199B647D00A1F96B /* dot.png */,
@@ -265,6 +272,7 @@
 				419ABB19199B647D00A1F96B /* msgs.png in Resources */,
 				419ABB1B199B647D00A1F96B /* splash screen.png in Resources */,
 				419ABAEB199B634D00A1F96B /* Images.xcassets in Resources */,
+				419ABB1D199BF85000A1F96B /* Marbloro.mp4 in Resources */,
 				419ABADD199B634D00A1F96B /* InfoPlist.strings in Resources */,
 				419ABB15199B647D00A1F96B /* dot.png in Resources */,
 				419ABB13199B647D00A1F96B /* bg.png in Resources */,

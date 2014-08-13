@@ -11,12 +11,16 @@
 @implementation DrawingCanvas
 
 
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        
     }
     return self;
 }
@@ -74,11 +78,11 @@
     }
     */
 
-    if ([touch view] == dotImage3 || [touch view] == dotImage2 || [touch view] == dotImage3 || [touch view] == dotImage4 || [touch view] == dotImage6 || [touch view] == dotImage8 || [touch view] == dotImage10 || [touch view] == dotImage11 || [touch view] == dotImage12 || [touch view] == dotImage13 || [touch view] == dotImage14 ) {
+ /*   if ([touch view] == dotImage3 || [touch view] == dotImage2 || [touch view] == dotImage3 || [touch view] == dotImage4 || [touch view] == dotImage6 || [touch view] == dotImage8 || [touch view] == dotImage10 || [touch view] == dotImage11 || [touch view] == dotImage12 || [touch view] == dotImage13 || [touch view] == dotImage14 ) {
         drawImage.image = nil;
-    }
+    } */
     
-    else if ([touch view] == dotImage5 && [touch view] == dotImage1 && [touch view] == dotImage7 && [touch view] == dotImage9 && [touch view] == dotImage15){
+    if ([touch view] == dotImage1 && [touch view] == dotImage2 && [touch view] == dotImage3 && [touch view] == dotImage4 && [touch view] == dotImage5 && [touch view] == dotImage6 && [touch view] == dotImage7 && [touch view] == dotImage8 && [touch view] == dotImage9 && [touch view] == dotImage10 && [touch view] == dotImage11 && [touch view] == dotImage12 && [touch view] == dotImage13 && [touch view] == dotImage14 && [touch view] == dotImage15){
         
         CGContextSetLineCap(UIGraphicsGetCurrentContext(), kCGLineCapRound);
         CGContextSetLineWidth(UIGraphicsGetCurrentContext(), 25);
@@ -88,7 +92,7 @@
         CGContextAddLineToPoint(UIGraphicsGetCurrentContext(), currentPoint.x, currentPoint.y);
         CGContextStrokePath(UIGraphicsGetCurrentContext());
         drawImage.image = UIGraphicsGetImageFromCurrentImageContext();
-      //  UIGraphicsEndImageContext();
+        UIGraphicsEndImageContext();
         lastPoint = currentPoint;
         
     }
@@ -156,17 +160,40 @@
 
   //  drawImage.image = UIGraphicsGetImageFromCurrentImageContext();
    
-    if (dotImage1.tag != 1 && dotImage2.tag != 2) {
-        drawImage.image = UIGraphicsGetImageFromCurrentImageContext();
-        UIGraphicsEndImageContext();
+    if (dotImage1.tag != 1 || dotImage2.tag != 2 || dotImage3.tag != 3 || dotImage4.tag != 4 || dotImage5.tag != 5 || dotImage6.tag != 6 || dotImage7.tag != 7 || dotImage8.tag == 8 || dotImage9.tag != 9 || dotImage10.tag != 10 || dotImage11.tag == 11 || dotImage12.tag != 12 || dotImage13.tag != 13 || dotImage14.tag != 14 || dotImage15.tag != 15 ) {
+        
+        [self InvalidMove];
+        lastPoint = CGPointMake(0, 0);
+        
+        dotImage1.tag = 0;
+        dotImage2.tag = 0;
+        dotImage3.tag = 0;
+        dotImage4.tag = 0;
+        dotImage5.tag = 0;
+        dotImage6.tag = 0;
+        dotImage7.tag = 0;
+        dotImage8.tag = 0;
+        dotImage9.tag = 0;
+        dotImage10.tag = 0;
+        dotImage11.tag = 0;
+        dotImage12.tag = 0;
+        dotImage13.tag = 0;
+        dotImage14.tag = 0;
+        dotImage15.tag = 0;
+        
         NSLog(@"if is yes");
     }
     
     else {
         
-     //   [self InvalidMove];
-        lastPoint = CGPointMake(0, 0);
-
+        [drawImage setImage:drawImage.image];
+//        drawImage.image = UIGraphicsGetImageFromCurrentImageContext();
+//        UIGraphicsEndImageContext();
+        [NSTimer scheduledTimerWithTimeInterval:1.0f
+                                         target:self
+                                       selector:@selector(PlayVideo)
+                                       userInfo:nil
+                                        repeats:NO];
         
         NSLog(@"if is no");
     }
@@ -178,6 +205,40 @@
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"WARNING" message:@"INVALID MOVE" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:nil, nil];
     [alert show];
     drawImage.image = nil;
+    
+    [self.moviePlayer stop];
+    
+}
+
+-(void)PlayVideo{
+    
+    //-----------------V I D E O-------------------
+  
+        [backgroundMusic pause];
+        
+        NSBundle *bundle = [NSBundle mainBundle];
+        NSString *moviePath = [bundle pathForResource:@"Marbloro" ofType:@"mp4"];
+        NSURL *movieURL = [NSURL fileURLWithPath:moviePath] ;
+        
+        
+        self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:movieURL];
+        [self.moviePlayer.view setFrame:CGRectMake(-128, 118, 1024, 768)]; //Creating frame for embeded movie player
+        //      [self.moviePlayer.view setFrame:CGRectMake(0, 150, 768, 600)];
+        
+        //Rotating the frame so that it runs in landscape mode
+        self.moviePlayer.view.transform=CGAffineTransformMakeRotation( 90.0/180*M_PI );
+        self.moviePlayer.view.userInteractionEnabled=YES;
+        // self.moviePlayer.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+        
+        
+        
+        [self.moviePlayer play];
+        [self addSubview:self.moviePlayer.view];//Embeded video
+        self.moviePlayer.shouldAutoplay=YES;
+         [self.moviePlayer play];
+        self.moviePlayer.controlStyle=MPMovieControlStyleNone;
+        
+        //------------------------------------------------'
     
 }
 
