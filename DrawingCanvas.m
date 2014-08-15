@@ -84,6 +84,7 @@
     
     if ([touch view] == dotImage1 && [touch view] == dotImage2 && [touch view] == dotImage3 && [touch view] == dotImage4 && [touch view] == dotImage5 && [touch view] == dotImage6 && [touch view] == dotImage7 && [touch view] == dotImage8 && [touch view] == dotImage9 && [touch view] == dotImage10 && [touch view] == dotImage11 && [touch view] == dotImage12 && [touch view] == dotImage13 && [touch view] == dotImage14 && [touch view] == dotImage15){
         
+        
         CGContextSetLineCap(UIGraphicsGetCurrentContext(), kCGLineCapRound);
         CGContextSetLineWidth(UIGraphicsGetCurrentContext(), 25);
         CGContextSetStrokeColorWithColor(UIGraphicsGetCurrentContext(), [UIColor redColor].CGColor);
@@ -210,9 +211,22 @@
     
 }
 
+-(void)playbackFinished{
+    
+    [NextScreen sendActionsForControlEvents: UIControlEventTouchUpInside];
+    
+    NSLog(@"play back finished");
+    
+}
+
+
 -(void)PlayVideo{
     
     //-----------------V I D E O-------------------
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(playbackFinished)
+                                                 name:MPMoviePlayerPlaybackDidFinishNotification object:nil];
   
         [backgroundMusic pause];
         

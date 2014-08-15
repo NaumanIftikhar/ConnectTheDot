@@ -34,6 +34,8 @@
     IBOutlet UIImageView *dotImage15;
     
     
+    IBOutlet UIButton *NextScreen;
+    
     AVAudioPlayer * pageEffect;
     AVAudioPlayer * backgroundMusic;
 }

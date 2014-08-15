@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4168D3DB199E096100476280 /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 4168D3DA199E096100476280 /* restart.png */; };
 		419ABAD3199B634D00A1F96B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419ABAD2199B634D00A1F96B /* Foundation.framework */; };
 		419ABAD5199B634D00A1F96B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419ABAD4199B634D00A1F96B /* CoreGraphics.framework */; };
 		419ABAD7199B634D00A1F96B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419ABAD6199B634D00A1F96B /* UIKit.framework */; };
@@ -28,11 +29,17 @@
 		419ABB16199B647D00A1F96B /* game screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB0D199B647D00A1F96B /* game screen.png */; };
 		419ABB17199B647D00A1F96B /* instruction button.png in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB0E199B647D00A1F96B /* instruction button.png */; };
 		419ABB18199B647D00A1F96B /* main button.png in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB0F199B647D00A1F96B /* main button.png */; };
-		419ABB19199B647D00A1F96B /* msgs.png in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB10199B647D00A1F96B /* msgs.png */; };
 		419ABB1A199B647D00A1F96B /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB11199B647D00A1F96B /* restart.png */; };
 		419ABB1B199B647D00A1F96B /* splash screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB12199B647D00A1F96B /* splash screen.png */; };
 		419ABB1D199BF85000A1F96B /* Marbloro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB1C199BF85000A1F96B /* Marbloro.mp4 */; };
 		419ABB1F199BFB8100A1F96B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419ABB1E199BFB8100A1F96B /* AVFoundation.framework */; };
+		41C69761199E0B530030772A /* 15Aug blank strip.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C6975D199E0B530030772A /* 15Aug blank strip.png */; };
+		41C69762199E0B530030772A /* 15Aug msgs.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C6975E199E0B530030772A /* 15Aug msgs.png */; };
+		41C69763199E0B530030772A /* 15Aug start button.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C6975F199E0B530030772A /* 15Aug start button.png */; };
+		41C69768199E0DB50030772A /* msg 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C69765199E0DB50030772A /* msg 01.png */; };
+		41C69769199E0DB50030772A /* msg 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C69766199E0DB50030772A /* msg 02.png */; };
+		41C6976A199E0DB50030772A /* msg 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C69767199E0DB50030772A /* msg 03.png */; };
+		41C6976C199E11860030772A /* next button.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C6976B199E11860030772A /* next button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4168D3DA199E096100476280 /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
 		419ABACF199B634D00A1F96B /* ConnectTheDots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectTheDots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		419ABAD2199B634D00A1F96B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		419ABAD4199B634D00A1F96B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -73,11 +81,17 @@
 		419ABB0D199B647D00A1F96B /* game screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game screen.png"; sourceTree = "<group>"; };
 		419ABB0E199B647D00A1F96B /* instruction button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instruction button.png"; sourceTree = "<group>"; };
 		419ABB0F199B647D00A1F96B /* main button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main button.png"; sourceTree = "<group>"; };
-		419ABB10199B647D00A1F96B /* msgs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msgs.png; sourceTree = "<group>"; };
 		419ABB11199B647D00A1F96B /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
 		419ABB12199B647D00A1F96B /* splash screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash screen.png"; sourceTree = "<group>"; };
 		419ABB1C199BF85000A1F96B /* Marbloro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marbloro.mp4; sourceTree = "<group>"; };
 		419ABB1E199BFB8100A1F96B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		41C6975D199E0B530030772A /* 15Aug blank strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15Aug blank strip.png"; sourceTree = "<group>"; };
+		41C6975E199E0B530030772A /* 15Aug msgs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15Aug msgs.png"; sourceTree = "<group>"; };
+		41C6975F199E0B530030772A /* 15Aug start button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15Aug start button.png"; sourceTree = "<group>"; };
+		41C69765199E0DB50030772A /* msg 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg 01.png"; sourceTree = "<group>"; };
+		41C69766199E0DB50030772A /* msg 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg 02.png"; sourceTree = "<group>"; };
+		41C69767199E0DB50030772A /* msg 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg 03.png"; sourceTree = "<group>"; };
+		41C6976B199E11860030772A /* next button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next button.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4168D3DC199E097600476280 /* 15Aug */ = {
+			isa = PBXGroup;
+			children = (
+				41C6976B199E11860030772A /* next button.png */,
+				41C69765199E0DB50030772A /* msg 01.png */,
+				41C69766199E0DB50030772A /* msg 02.png */,
+				41C69767199E0DB50030772A /* msg 03.png */,
+				41C6975D199E0B530030772A /* 15Aug blank strip.png */,
+				41C6975E199E0B530030772A /* 15Aug msgs.png */,
+				41C6975F199E0B530030772A /* 15Aug start button.png */,
+			);
+			name = 15Aug;
+			sourceTree = "<group>";
+		};
 		419ABAC6199B634D00A1F96B = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +183,8 @@
 		419ABAD9199B634D00A1F96B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4168D3DC199E097600476280 /* 15Aug */,
+				4168D3DA199E096100476280 /* restart.png */,
 				419ABB1C199BF85000A1F96B /* Marbloro.mp4 */,
 				419ABB0A199B647D00A1F96B /* bg.png */,
 				419ABB0B199B647D00A1F96B /* blank strip.png */,
@@ -162,7 +192,6 @@
 				419ABB0D199B647D00A1F96B /* game screen.png */,
 				419ABB0E199B647D00A1F96B /* instruction button.png */,
 				419ABB0F199B647D00A1F96B /* main button.png */,
-				419ABB10199B647D00A1F96B /* msgs.png */,
 				419ABB11199B647D00A1F96B /* restart.png */,
 				419ABB12199B647D00A1F96B /* splash screen.png */,
 				419ABADA199B634D00A1F96B /* ConnectTheDots-Info.plist */,
@@ -238,6 +267,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = VertexSoft;
 				TargetAttributes = {
+					419ABACE199B634D00A1F96B = {
+						DevelopmentTeam = N2S353Z69T;
+					};
 					419ABAEF199B634D00A1F96B = {
 						TestTargetID = 419ABACE199B634D00A1F96B;
 					};
@@ -268,18 +300,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				419ABB1A199B647D00A1F96B /* restart.png in Resources */,
+				41C69761199E0B530030772A /* 15Aug blank strip.png in Resources */,
 				419ABB14199B647D00A1F96B /* blank strip.png in Resources */,
-				419ABB19199B647D00A1F96B /* msgs.png in Resources */,
 				419ABB1B199B647D00A1F96B /* splash screen.png in Resources */,
 				419ABAEB199B634D00A1F96B /* Images.xcassets in Resources */,
+				41C69762199E0B530030772A /* 15Aug msgs.png in Resources */,
+				41C6976A199E0DB50030772A /* msg 03.png in Resources */,
+				41C69763199E0B530030772A /* 15Aug start button.png in Resources */,
 				419ABB1D199BF85000A1F96B /* Marbloro.mp4 in Resources */,
 				419ABADD199B634D00A1F96B /* InfoPlist.strings in Resources */,
 				419ABB15199B647D00A1F96B /* dot.png in Resources */,
 				419ABB13199B647D00A1F96B /* bg.png in Resources */,
 				419ABB16199B647D00A1F96B /* game screen.png in Resources */,
+				41C69769199E0DB50030772A /* msg 02.png in Resources */,
 				419ABAE6199B634D00A1F96B /* Main.storyboard in Resources */,
+				4168D3DB199E096100476280 /* restart.png in Resources */,
 				419ABB17199B647D00A1F96B /* instruction button.png in Resources */,
 				419ABB18199B647D00A1F96B /* main button.png in Resources */,
+				41C69768199E0DB50030772A /* msg 01.png in Resources */,
+				41C6976C199E11860030772A /* next button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +406,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -383,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -406,6 +446,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -416,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -428,10 +469,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConnectTheDots/ConnectTheDots-Prefix.pch";
 				INFOPLIST_FILE = "ConnectTheDots/ConnectTheDots-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -441,10 +485,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConnectTheDots/ConnectTheDots-Prefix.pch";
 				INFOPLIST_FILE = "ConnectTheDots/ConnectTheDots-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -508,6 +555,7 @@
 				419ABB03199B634D00A1F96B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		419ABB04199B634D00A1F96B /* Build configuration list for PBXNativeTarget "ConnectTheDotsTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +564,7 @@
 				419ABB06199B634D00A1F96B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
