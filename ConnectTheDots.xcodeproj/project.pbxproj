@@ -33,6 +33,25 @@
 		419ABB1B199B647D00A1F96B /* splash screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB12199B647D00A1F96B /* splash screen.png */; };
 		419ABB1D199BF85000A1F96B /* Marbloro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB1C199BF85000A1F96B /* Marbloro.mp4 */; };
 		419ABB1F199BFB8100A1F96B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419ABB1E199BFB8100A1F96B /* AVFoundation.framework */; };
+		41B161BB19A23C2B001E3AFE /* back button 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161A919A23C2B001E3AFE /* back button 18Aug.png */; };
+		41B161BC19A23C2B001E3AFE /* dot-02 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161AA19A23C2B001E3AFE /* dot-02 18Aug.png */; };
+		41B161BD19A23C2B001E3AFE /* dots 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161AB19A23C2B001E3AFE /* dots 18Aug.png */; };
+		41B161BE19A23C2B001E3AFE /* game screen bg 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161AC19A23C2B001E3AFE /* game screen bg 18Aug.png */; };
+		41B161C119A23C2B001E3AFE /* main BG 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161AF19A23C2B001E3AFE /* main BG 18Aug.png */; };
+		41B161C219A23C2B001E3AFE /* main button 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161B019A23C2B001E3AFE /* main button 18Aug.png */; };
+		41B161C619A23C2B001E3AFE /* Red_Marlboro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41B161B419A23C2B001E3AFE /* Red_Marlboro.mp4 */; };
+		41B161C719A23C2B001E3AFE /* reset 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161B519A23C2B001E3AFE /* reset 18Aug.png */; };
+		41B161CA19A23C2B001E3AFE /* shevron 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161B819A23C2B001E3AFE /* shevron 18Aug.png */; };
+		41B161CB19A23C2B001E3AFE /* vector 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161B919A23C2B001E3AFE /* vector 18Aug.png */; };
+		41B161CC19A23C2B001E3AFE /* White_Marlboro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41B161BA19A23C2B001E3AFE /* White_Marlboro.mp4 */; };
+		41B161D319A24398001E3AFE /* left gold striip diagonal 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161CD19A24398001E3AFE /* left gold striip diagonal 18Aug.png */; };
+		41B161D419A24398001E3AFE /* left red diagonal line 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161CE19A24398001E3AFE /* left red diagonal line 18Aug.png */; };
+		41B161D519A24398001E3AFE /* red straight line 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161CF19A24398001E3AFE /* red straight line 18Aug.png */; };
+		41B161D619A24398001E3AFE /* red vertical line 2 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161D019A24398001E3AFE /* red vertical line 2 18Aug.png */; };
+		41B161D719A24398001E3AFE /* red vertical line 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161D119A24398001E3AFE /* red vertical line 18Aug.png */; };
+		41B161D819A24398001E3AFE /* right gold strip diagonal 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161D219A24398001E3AFE /* right gold strip diagonal 18Aug.png */; };
+		41B161DA19A2458B001E3AFE /* right red diagonal line 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161D919A2458B001E3AFE /* right red diagonal line 18Aug.png */; };
+		41B161DC19A24BD7001E3AFE /* NEXT 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161DB19A24BD7001E3AFE /* NEXT 18Aug.png */; };
 		41C69761199E0B530030772A /* 15Aug blank strip.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C6975D199E0B530030772A /* 15Aug blank strip.png */; };
 		41C69762199E0B530030772A /* 15Aug msgs.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C6975E199E0B530030772A /* 15Aug msgs.png */; };
 		41C69763199E0B530030772A /* 15Aug start button.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C6975F199E0B530030772A /* 15Aug start button.png */; };
@@ -85,6 +104,25 @@
 		419ABB12199B647D00A1F96B /* splash screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash screen.png"; sourceTree = "<group>"; };
 		419ABB1C199BF85000A1F96B /* Marbloro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marbloro.mp4; sourceTree = "<group>"; };
 		419ABB1E199BFB8100A1F96B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		41B161A919A23C2B001E3AFE /* back button 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back button 18Aug.png"; sourceTree = "<group>"; };
+		41B161AA19A23C2B001E3AFE /* dot-02 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot-02 18Aug.png"; sourceTree = "<group>"; };
+		41B161AB19A23C2B001E3AFE /* dots 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dots 18Aug.png"; sourceTree = "<group>"; };
+		41B161AC19A23C2B001E3AFE /* game screen bg 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game screen bg 18Aug.png"; sourceTree = "<group>"; };
+		41B161AF19A23C2B001E3AFE /* main BG 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main BG 18Aug.png"; sourceTree = "<group>"; };
+		41B161B019A23C2B001E3AFE /* main button 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main button 18Aug.png"; sourceTree = "<group>"; };
+		41B161B419A23C2B001E3AFE /* Red_Marlboro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Red_Marlboro.mp4; sourceTree = "<group>"; };
+		41B161B519A23C2B001E3AFE /* reset 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset 18Aug.png"; sourceTree = "<group>"; };
+		41B161B819A23C2B001E3AFE /* shevron 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shevron 18Aug.png"; sourceTree = "<group>"; };
+		41B161B919A23C2B001E3AFE /* vector 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vector 18Aug.png"; sourceTree = "<group>"; };
+		41B161BA19A23C2B001E3AFE /* White_Marlboro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = White_Marlboro.mp4; sourceTree = "<group>"; };
+		41B161CD19A24398001E3AFE /* left gold striip diagonal 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left gold striip diagonal 18Aug.png"; sourceTree = "<group>"; };
+		41B161CE19A24398001E3AFE /* left red diagonal line 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left red diagonal line 18Aug.png"; sourceTree = "<group>"; };
+		41B161CF19A24398001E3AFE /* red straight line 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red straight line 18Aug.png"; sourceTree = "<group>"; };
+		41B161D019A24398001E3AFE /* red vertical line 2 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red vertical line 2 18Aug.png"; sourceTree = "<group>"; };
+		41B161D119A24398001E3AFE /* red vertical line 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red vertical line 18Aug.png"; sourceTree = "<group>"; };
+		41B161D219A24398001E3AFE /* right gold strip diagonal 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right gold strip diagonal 18Aug.png"; sourceTree = "<group>"; };
+		41B161D919A2458B001E3AFE /* right red diagonal line 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right red diagonal line 18Aug.png"; sourceTree = "<group>"; };
+		41B161DB19A24BD7001E3AFE /* NEXT 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NEXT 18Aug.png"; sourceTree = "<group>"; };
 		41C6975D199E0B530030772A /* 15Aug blank strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15Aug blank strip.png"; sourceTree = "<group>"; };
 		41C6975E199E0B530030772A /* 15Aug msgs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15Aug msgs.png"; sourceTree = "<group>"; };
 		41C6975F199E0B530030772A /* 15Aug start button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15Aug start button.png"; sourceTree = "<group>"; };
@@ -183,6 +221,7 @@
 		419ABAD9199B634D00A1F96B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				41B161A819A23BC7001E3AFE /* 18Aug */,
 				4168D3DC199E097600476280 /* 15Aug */,
 				4168D3DA199E096100476280 /* restart.png */,
 				419ABB1C199BF85000A1F96B /* Marbloro.mp4 */,
@@ -218,6 +257,32 @@
 				419ABAFA199B634D00A1F96B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41B161A819A23BC7001E3AFE /* 18Aug */ = {
+			isa = PBXGroup;
+			children = (
+				41B161DB19A24BD7001E3AFE /* NEXT 18Aug.png */,
+				41B161D919A2458B001E3AFE /* right red diagonal line 18Aug.png */,
+				41B161CD19A24398001E3AFE /* left gold striip diagonal 18Aug.png */,
+				41B161CE19A24398001E3AFE /* left red diagonal line 18Aug.png */,
+				41B161CF19A24398001E3AFE /* red straight line 18Aug.png */,
+				41B161D019A24398001E3AFE /* red vertical line 2 18Aug.png */,
+				41B161D119A24398001E3AFE /* red vertical line 18Aug.png */,
+				41B161D219A24398001E3AFE /* right gold strip diagonal 18Aug.png */,
+				41B161A919A23C2B001E3AFE /* back button 18Aug.png */,
+				41B161AA19A23C2B001E3AFE /* dot-02 18Aug.png */,
+				41B161AB19A23C2B001E3AFE /* dots 18Aug.png */,
+				41B161AC19A23C2B001E3AFE /* game screen bg 18Aug.png */,
+				41B161AF19A23C2B001E3AFE /* main BG 18Aug.png */,
+				41B161B019A23C2B001E3AFE /* main button 18Aug.png */,
+				41B161B419A23C2B001E3AFE /* Red_Marlboro.mp4 */,
+				41B161B519A23C2B001E3AFE /* reset 18Aug.png */,
+				41B161B819A23C2B001E3AFE /* shevron 18Aug.png */,
+				41B161B919A23C2B001E3AFE /* vector 18Aug.png */,
+				41B161BA19A23C2B001E3AFE /* White_Marlboro.mp4 */,
+			);
+			name = 18Aug;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,25 +365,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				419ABB1A199B647D00A1F96B /* restart.png in Resources */,
+				41B161D419A24398001E3AFE /* left red diagonal line 18Aug.png in Resources */,
+				41B161BB19A23C2B001E3AFE /* back button 18Aug.png in Resources */,
 				41C69761199E0B530030772A /* 15Aug blank strip.png in Resources */,
 				419ABB14199B647D00A1F96B /* blank strip.png in Resources */,
+				41B161BE19A23C2B001E3AFE /* game screen bg 18Aug.png in Resources */,
 				419ABB1B199B647D00A1F96B /* splash screen.png in Resources */,
 				419ABAEB199B634D00A1F96B /* Images.xcassets in Resources */,
+				41B161C619A23C2B001E3AFE /* Red_Marlboro.mp4 in Resources */,
 				41C69762199E0B530030772A /* 15Aug msgs.png in Resources */,
+				41B161C719A23C2B001E3AFE /* reset 18Aug.png in Resources */,
 				41C6976A199E0DB50030772A /* msg 03.png in Resources */,
 				41C69763199E0B530030772A /* 15Aug start button.png in Resources */,
+				41B161CA19A23C2B001E3AFE /* shevron 18Aug.png in Resources */,
+				41B161CB19A23C2B001E3AFE /* vector 18Aug.png in Resources */,
 				419ABB1D199BF85000A1F96B /* Marbloro.mp4 in Resources */,
 				419ABADD199B634D00A1F96B /* InfoPlist.strings in Resources */,
+				41B161BC19A23C2B001E3AFE /* dot-02 18Aug.png in Resources */,
 				419ABB15199B647D00A1F96B /* dot.png in Resources */,
 				419ABB13199B647D00A1F96B /* bg.png in Resources */,
 				419ABB16199B647D00A1F96B /* game screen.png in Resources */,
 				41C69769199E0DB50030772A /* msg 02.png in Resources */,
 				419ABAE6199B634D00A1F96B /* Main.storyboard in Resources */,
+				41B161C219A23C2B001E3AFE /* main button 18Aug.png in Resources */,
+				41B161BD19A23C2B001E3AFE /* dots 18Aug.png in Resources */,
+				41B161DC19A24BD7001E3AFE /* NEXT 18Aug.png in Resources */,
 				4168D3DB199E096100476280 /* restart.png in Resources */,
+				41B161D819A24398001E3AFE /* right gold strip diagonal 18Aug.png in Resources */,
+				41B161CC19A23C2B001E3AFE /* White_Marlboro.mp4 in Resources */,
+				41B161C119A23C2B001E3AFE /* main BG 18Aug.png in Resources */,
 				419ABB17199B647D00A1F96B /* instruction button.png in Resources */,
+				41B161D719A24398001E3AFE /* red vertical line 18Aug.png in Resources */,
 				419ABB18199B647D00A1F96B /* main button.png in Resources */,
+				41B161DA19A2458B001E3AFE /* right red diagonal line 18Aug.png in Resources */,
 				41C69768199E0DB50030772A /* msg 01.png in Resources */,
+				41B161D619A24398001E3AFE /* red vertical line 2 18Aug.png in Resources */,
+				41B161D519A24398001E3AFE /* red straight line 18Aug.png in Resources */,
 				41C6976C199E11860030772A /* next button.png in Resources */,
+				41B161D319A24398001E3AFE /* left gold striip diagonal 18Aug.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
