@@ -31,8 +31,17 @@
 		419ABB18199B647D00A1F96B /* main button.png in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB0F199B647D00A1F96B /* main button.png */; };
 		419ABB1A199B647D00A1F96B /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB11199B647D00A1F96B /* restart.png */; };
 		419ABB1B199B647D00A1F96B /* splash screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB12199B647D00A1F96B /* splash screen.png */; };
-		419ABB1D199BF85000A1F96B /* Marbloro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 419ABB1C199BF85000A1F96B /* Marbloro.mp4 */; };
 		419ABB1F199BFB8100A1F96B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419ABB1E199BFB8100A1F96B /* AVFoundation.framework */; };
+		41A3613419A3499D0037D1CC /* VectorDrawingCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A3613319A3499D0037D1CC /* VectorDrawingCanvasViewController.m */; };
+		41A3614219A39B0D0037D1CC /* gold pack screen 19Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A3613919A39B0D0037D1CC /* gold pack screen 19Aug.png */; };
+		41A3614319A39B0D0037D1CC /* gold strip 19Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A3613A19A39B0D0037D1CC /* gold strip 19Aug.png */; };
+		41A3614419A39B0D0037D1CC /* horizontal gold strip 19Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A3613B19A39B0D0037D1CC /* horizontal gold strip 19Aug.png */; };
+		41A3614519A39B0D0037D1CC /* main button 19Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A3613C19A39B0D0037D1CC /* main button 19Aug.png */; };
+		41A3614619A39B0D0037D1CC /* menu bar 19Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A3613D19A39B0D0037D1CC /* menu bar 19Aug.png */; };
+		41A3614719A39B0D0037D1CC /* msgs screen 19Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A3613E19A39B0D0037D1CC /* msgs screen 19Aug.png */; };
+		41A3614819A39B0D0037D1CC /* next button 19Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A3613F19A39B0D0037D1CC /* next button 19Aug.png */; };
+		41A3614919A39B0D0037D1CC /* red pack screen 19Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A3614019A39B0D0037D1CC /* red pack screen 19Aug.png */; };
+		41A3614A19A39B0D0037D1CC /* reset Button 19Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A3614119A39B0D0037D1CC /* reset Button 19Aug.png */; };
 		41B161BB19A23C2B001E3AFE /* back button 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161A919A23C2B001E3AFE /* back button 18Aug.png */; };
 		41B161BC19A23C2B001E3AFE /* dot-02 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161AA19A23C2B001E3AFE /* dot-02 18Aug.png */; };
 		41B161BD19A23C2B001E3AFE /* dots 18Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B161AB19A23C2B001E3AFE /* dots 18Aug.png */; };
@@ -102,8 +111,18 @@
 		419ABB0F199B647D00A1F96B /* main button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main button.png"; sourceTree = "<group>"; };
 		419ABB11199B647D00A1F96B /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
 		419ABB12199B647D00A1F96B /* splash screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash screen.png"; sourceTree = "<group>"; };
-		419ABB1C199BF85000A1F96B /* Marbloro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marbloro.mp4; sourceTree = "<group>"; };
 		419ABB1E199BFB8100A1F96B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		41A3613219A3499D0037D1CC /* VectorDrawingCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VectorDrawingCanvasViewController.h; path = ../VectorDrawingCanvasViewController.h; sourceTree = "<group>"; };
+		41A3613319A3499D0037D1CC /* VectorDrawingCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VectorDrawingCanvasViewController.m; path = ../VectorDrawingCanvasViewController.m; sourceTree = "<group>"; };
+		41A3613919A39B0D0037D1CC /* gold pack screen 19Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gold pack screen 19Aug.png"; sourceTree = "<group>"; };
+		41A3613A19A39B0D0037D1CC /* gold strip 19Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gold strip 19Aug.png"; sourceTree = "<group>"; };
+		41A3613B19A39B0D0037D1CC /* horizontal gold strip 19Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "horizontal gold strip 19Aug.png"; sourceTree = "<group>"; };
+		41A3613C19A39B0D0037D1CC /* main button 19Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main button 19Aug.png"; sourceTree = "<group>"; };
+		41A3613D19A39B0D0037D1CC /* menu bar 19Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu bar 19Aug.png"; sourceTree = "<group>"; };
+		41A3613E19A39B0D0037D1CC /* msgs screen 19Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msgs screen 19Aug.png"; sourceTree = "<group>"; };
+		41A3613F19A39B0D0037D1CC /* next button 19Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next button 19Aug.png"; sourceTree = "<group>"; };
+		41A3614019A39B0D0037D1CC /* red pack screen 19Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red pack screen 19Aug.png"; sourceTree = "<group>"; };
+		41A3614119A39B0D0037D1CC /* reset Button 19Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset Button 19Aug.png"; sourceTree = "<group>"; };
 		41B161A919A23C2B001E3AFE /* back button 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back button 18Aug.png"; sourceTree = "<group>"; };
 		41B161AA19A23C2B001E3AFE /* dot-02 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot-02 18Aug.png"; sourceTree = "<group>"; };
 		41B161AB19A23C2B001E3AFE /* dots 18Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dots 18Aug.png"; sourceTree = "<group>"; };
@@ -208,6 +227,8 @@
 				419ABAE1199B634D00A1F96B /* AppDelegate.h */,
 				419ABAE2199B634D00A1F96B /* AppDelegate.m */,
 				419ABAE4199B634D00A1F96B /* Main.storyboard */,
+				41A3613219A3499D0037D1CC /* VectorDrawingCanvasViewController.h */,
+				41A3613319A3499D0037D1CC /* VectorDrawingCanvasViewController.m */,
 				419ABB07199B63C800A1F96B /* DrawingCanvas.h */,
 				419ABB08199B63C800A1F96B /* DrawingCanvas.m */,
 				419ABAE7199B634D00A1F96B /* ViewController.h */,
@@ -221,10 +242,10 @@
 		419ABAD9199B634D00A1F96B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				41A3613819A39AD20037D1CC /* 19Aug */,
 				41B161A819A23BC7001E3AFE /* 18Aug */,
 				4168D3DC199E097600476280 /* 15Aug */,
 				4168D3DA199E096100476280 /* restart.png */,
-				419ABB1C199BF85000A1F96B /* Marbloro.mp4 */,
 				419ABB0A199B647D00A1F96B /* bg.png */,
 				419ABB0B199B647D00A1F96B /* blank strip.png */,
 				419ABB0C199B647D00A1F96B /* dot.png */,
@@ -257,6 +278,22 @@
 				419ABAFA199B634D00A1F96B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41A3613819A39AD20037D1CC /* 19Aug */ = {
+			isa = PBXGroup;
+			children = (
+				41A3613919A39B0D0037D1CC /* gold pack screen 19Aug.png */,
+				41A3613A19A39B0D0037D1CC /* gold strip 19Aug.png */,
+				41A3613B19A39B0D0037D1CC /* horizontal gold strip 19Aug.png */,
+				41A3613C19A39B0D0037D1CC /* main button 19Aug.png */,
+				41A3613D19A39B0D0037D1CC /* menu bar 19Aug.png */,
+				41A3613E19A39B0D0037D1CC /* msgs screen 19Aug.png */,
+				41A3613F19A39B0D0037D1CC /* next button 19Aug.png */,
+				41A3614019A39B0D0037D1CC /* red pack screen 19Aug.png */,
+				41A3614119A39B0D0037D1CC /* reset Button 19Aug.png */,
+			);
+			name = 19Aug;
 			sourceTree = "<group>";
 		};
 		41B161A819A23BC7001E3AFE /* 18Aug */ = {
@@ -373,27 +410,34 @@
 				419ABB1B199B647D00A1F96B /* splash screen.png in Resources */,
 				419ABAEB199B634D00A1F96B /* Images.xcassets in Resources */,
 				41B161C619A23C2B001E3AFE /* Red_Marlboro.mp4 in Resources */,
+				41A3614919A39B0D0037D1CC /* red pack screen 19Aug.png in Resources */,
 				41C69762199E0B530030772A /* 15Aug msgs.png in Resources */,
 				41B161C719A23C2B001E3AFE /* reset 18Aug.png in Resources */,
 				41C6976A199E0DB50030772A /* msg 03.png in Resources */,
 				41C69763199E0B530030772A /* 15Aug start button.png in Resources */,
 				41B161CA19A23C2B001E3AFE /* shevron 18Aug.png in Resources */,
+				41A3614419A39B0D0037D1CC /* horizontal gold strip 19Aug.png in Resources */,
 				41B161CB19A23C2B001E3AFE /* vector 18Aug.png in Resources */,
-				419ABB1D199BF85000A1F96B /* Marbloro.mp4 in Resources */,
 				419ABADD199B634D00A1F96B /* InfoPlist.strings in Resources */,
 				41B161BC19A23C2B001E3AFE /* dot-02 18Aug.png in Resources */,
 				419ABB15199B647D00A1F96B /* dot.png in Resources */,
 				419ABB13199B647D00A1F96B /* bg.png in Resources */,
+				41A3614219A39B0D0037D1CC /* gold pack screen 19Aug.png in Resources */,
 				419ABB16199B647D00A1F96B /* game screen.png in Resources */,
+				41A3614519A39B0D0037D1CC /* main button 19Aug.png in Resources */,
 				41C69769199E0DB50030772A /* msg 02.png in Resources */,
 				419ABAE6199B634D00A1F96B /* Main.storyboard in Resources */,
+				41A3614719A39B0D0037D1CC /* msgs screen 19Aug.png in Resources */,
 				41B161C219A23C2B001E3AFE /* main button 18Aug.png in Resources */,
 				41B161BD19A23C2B001E3AFE /* dots 18Aug.png in Resources */,
 				41B161DC19A24BD7001E3AFE /* NEXT 18Aug.png in Resources */,
 				4168D3DB199E096100476280 /* restart.png in Resources */,
+				41A3614819A39B0D0037D1CC /* next button 19Aug.png in Resources */,
 				41B161D819A24398001E3AFE /* right gold strip diagonal 18Aug.png in Resources */,
+				41A3614619A39B0D0037D1CC /* menu bar 19Aug.png in Resources */,
 				41B161CC19A23C2B001E3AFE /* White_Marlboro.mp4 in Resources */,
 				41B161C119A23C2B001E3AFE /* main BG 18Aug.png in Resources */,
+				41A3614319A39B0D0037D1CC /* gold strip 19Aug.png in Resources */,
 				419ABB17199B647D00A1F96B /* instruction button.png in Resources */,
 				41B161D719A24398001E3AFE /* red vertical line 18Aug.png in Resources */,
 				419ABB18199B647D00A1F96B /* main button.png in Resources */,
@@ -401,6 +445,7 @@
 				41C69768199E0DB50030772A /* msg 01.png in Resources */,
 				41B161D619A24398001E3AFE /* red vertical line 2 18Aug.png in Resources */,
 				41B161D519A24398001E3AFE /* red straight line 18Aug.png in Resources */,
+				41A3614A19A39B0D0037D1CC /* reset Button 19Aug.png in Resources */,
 				41C6976C199E11860030772A /* next button.png in Resources */,
 				41B161D319A24398001E3AFE /* left gold striip diagonal 18Aug.png in Resources */,
 			);
@@ -423,6 +468,7 @@
 			files = (
 				419ABAE9199B634D00A1F96B /* ViewController.m in Sources */,
 				419ABAE3199B634D00A1F96B /* AppDelegate.m in Sources */,
+				41A3613419A3499D0037D1CC /* VectorDrawingCanvasViewController.m in Sources */,
 				419ABB09199B63C800A1F96B /* DrawingCanvas.m in Sources */,
 				419ABADF199B634D00A1F96B /* main.m in Sources */,
 			);

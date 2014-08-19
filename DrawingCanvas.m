@@ -309,7 +309,18 @@
         [VerticalLine10 setImage:[UIImage imageNamed:@"red vertical line 2 18Aug.png"]];
     }
     
-    
+    if (DotImage11 && DotImage12) {
+        [HorizontalLine5 setImage:[UIImage imageNamed:@"red straight line 18Aug.png"]];
+    }
+    if (DotImage12 && DotImage13) {
+        [HorizontalLine6 setImage:[UIImage imageNamed:@"red straight line 18Aug.png"]];
+    }
+    if (DotImage13 && DotImage14) {
+        [HorizontalLine7 setImage:[UIImage imageNamed:@"red straight line 18Aug.png"]];
+    }
+    if (DotImage14 && DotImage15) {
+        [HorizontalLine8 setImage:[UIImage imageNamed:@"red straight line 18Aug.png"]];
+    }
     
     
     
@@ -383,15 +394,20 @@
         [self InvalidMove];
         
     }
+    else if(dotImage1.tag == 1 && dotImage2.tag == 2 && dotImage3.tag == 3 && dotImage4.tag == 4 && dotImage5.tag == 5 && dotImage6.tag == 6 && dotImage7.tag == 7 && dotImage8.tag ==8 && dotImage9.tag == 9 && dotImage10.tag == 10 && dotImage11.tag == 11 && dotImage12.tag == 12 && dotImage13.tag == 13 && dotImage14.tag == 14 && dotImage15.tag == 15 ){
+        
+        [self InvalidMove];
+    }
     else {
         
         NSLog(@"OK");
+        [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(PlayVideo) userInfo:nil repeats:NO];
     
     }
     
     
   /*  if (dotImage1.tag == 1 && dotImage2.tag == 2) {
-        
+   
         [HorizontalLine1 setImage:[UIImage imageNamed:@"red straight line 18Aug.png"]];
         
     }
@@ -497,7 +513,7 @@
         [backgroundMusic pause];
         
         NSBundle *bundle = [NSBundle mainBundle];
-        NSString *moviePath = [bundle pathForResource:@"Marbloro" ofType:@"mp4"];
+        NSString *moviePath = [bundle pathForResource:@"Red_Marlboro" ofType:@"mp4"];
         NSURL *movieURL = [NSURL fileURLWithPath:moviePath] ;
         
         
@@ -524,6 +540,8 @@
 
 
 - (IBAction)ResetButton:(id)sender {
+    
+    
     
     HorizontalLine1.image = nil;
     HorizontalLine2.image = nil;
@@ -585,5 +603,6 @@
     DotImage14 = NO;
     DotImage15 = NO;
 }
+
 
 @end
