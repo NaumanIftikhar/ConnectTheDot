@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4150825919A742A500D4F2AB /* fushion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4150825819A742A500D4F2AB /* fushion.mp3 */; };
+		4150825B19A75AB400D4F2AB /* reset button22082014.png in Resources */ = {isa = PBXBuildFile; fileRef = 4150825A19A75AB400D4F2AB /* reset button22082014.png */; };
 		4168D3DB199E096100476280 /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 4168D3DA199E096100476280 /* restart.png */; };
 		416AD68219A73D3000E85943 /* LastScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 416AD68119A73D3000E85943 /* LastScreen.m */; };
 		419ABAD3199B634D00A1F96B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419ABAD2199B634D00A1F96B /* Foundation.framework */; };
@@ -84,6 +85,7 @@
 
 /* Begin PBXFileReference section */
 		4150825819A742A500D4F2AB /* fushion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fushion.mp3; sourceTree = "<group>"; };
+		4150825A19A75AB400D4F2AB /* reset button22082014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset button22082014.png"; sourceTree = "<group>"; };
 		4168D3DA199E096100476280 /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
 		416AD68019A73D3000E85943 /* LastScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LastScreen.h; path = ../LastScreen.h; sourceTree = "<group>"; };
 		416AD68119A73D3000E85943 /* LastScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LastScreen.m; path = ../LastScreen.m; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 		419ABAD9199B634D00A1F96B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4150825A19A75AB400D4F2AB /* reset button22082014.png */,
 				41A3613819A39AD20037D1CC /* 19Aug */,
 				41B161A819A23BC7001E3AFE /* 18Aug */,
 				4168D3DC199E097600476280 /* 15Aug */,
@@ -442,6 +445,7 @@
 				41B161DC19A24BD7001E3AFE /* NEXT 18Aug.png in Resources */,
 				4168D3DB199E096100476280 /* restart.png in Resources */,
 				41A3614819A39B0D0037D1CC /* next button 19Aug.png in Resources */,
+				4150825B19A75AB400D4F2AB /* reset button22082014.png in Resources */,
 				41B161D819A24398001E3AFE /* right gold strip diagonal 18Aug.png in Resources */,
 				41A3614619A39B0D0037D1CC /* menu bar 19Aug.png in Resources */,
 				41B161CC19A23C2B001E3AFE /* White_Marlboro.mp4 in Resources */,
