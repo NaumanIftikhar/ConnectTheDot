@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4150825919A742A500D4F2AB /* fushion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4150825819A742A500D4F2AB /* fushion.mp3 */; };
 		4168D3DB199E096100476280 /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 4168D3DA199E096100476280 /* restart.png */; };
+		416AD68219A73D3000E85943 /* LastScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 416AD68119A73D3000E85943 /* LastScreen.m */; };
 		419ABAD3199B634D00A1F96B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419ABAD2199B634D00A1F96B /* Foundation.framework */; };
 		419ABAD5199B634D00A1F96B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419ABAD4199B634D00A1F96B /* CoreGraphics.framework */; };
 		419ABAD7199B634D00A1F96B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419ABAD6199B634D00A1F96B /* UIKit.framework */; };
@@ -81,7 +83,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4150825819A742A500D4F2AB /* fushion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fushion.mp3; sourceTree = "<group>"; };
 		4168D3DA199E096100476280 /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
+		416AD68019A73D3000E85943 /* LastScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LastScreen.h; path = ../LastScreen.h; sourceTree = "<group>"; };
+		416AD68119A73D3000E85943 /* LastScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LastScreen.m; path = ../LastScreen.m; sourceTree = "<group>"; };
 		419ABACF199B634D00A1F96B /* ConnectTheDots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectTheDots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		419ABAD2199B634D00A1F96B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		419ABAD4199B634D00A1F96B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -227,6 +232,8 @@
 				419ABAE1199B634D00A1F96B /* AppDelegate.h */,
 				419ABAE2199B634D00A1F96B /* AppDelegate.m */,
 				419ABAE4199B634D00A1F96B /* Main.storyboard */,
+				416AD68019A73D3000E85943 /* LastScreen.h */,
+				416AD68119A73D3000E85943 /* LastScreen.m */,
 				41A3613219A3499D0037D1CC /* VectorDrawingCanvasViewController.h */,
 				41A3613319A3499D0037D1CC /* VectorDrawingCanvasViewController.m */,
 				419ABB07199B63C800A1F96B /* DrawingCanvas.h */,
@@ -283,6 +290,7 @@
 		41A3613819A39AD20037D1CC /* 19Aug */ = {
 			isa = PBXGroup;
 			children = (
+				4150825819A742A500D4F2AB /* fushion.mp3 */,
 				41A3613919A39B0D0037D1CC /* gold pack screen 19Aug.png */,
 				41A3613A19A39B0D0037D1CC /* gold strip 19Aug.png */,
 				41A3613B19A39B0D0037D1CC /* horizontal gold strip 19Aug.png */,
@@ -406,6 +414,7 @@
 				41B161BB19A23C2B001E3AFE /* back button 18Aug.png in Resources */,
 				41C69761199E0B530030772A /* 15Aug blank strip.png in Resources */,
 				419ABB14199B647D00A1F96B /* blank strip.png in Resources */,
+				4150825919A742A500D4F2AB /* fushion.mp3 in Resources */,
 				41B161BE19A23C2B001E3AFE /* game screen bg 18Aug.png in Resources */,
 				419ABB1B199B647D00A1F96B /* splash screen.png in Resources */,
 				419ABAEB199B634D00A1F96B /* Images.xcassets in Resources */,
@@ -469,6 +478,7 @@
 				419ABAE9199B634D00A1F96B /* ViewController.m in Sources */,
 				419ABAE3199B634D00A1F96B /* AppDelegate.m in Sources */,
 				41A3613419A3499D0037D1CC /* VectorDrawingCanvasViewController.m in Sources */,
+				416AD68219A73D3000E85943 /* LastScreen.m in Sources */,
 				419ABB09199B63C800A1F96B /* DrawingCanvas.m in Sources */,
 				419ABADF199B634D00A1F96B /* main.m in Sources */,
 			);

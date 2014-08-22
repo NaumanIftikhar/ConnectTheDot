@@ -18,6 +18,9 @@
     CGPoint currentPoint;
     
     UIAlertView *alert;
+    UIView *holdingView;
+    
+   // BOOL MainScreenCalled;
     
     //=================== THE MIGHTY BOOL===========//
     

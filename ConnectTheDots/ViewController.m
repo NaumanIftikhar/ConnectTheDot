@@ -19,6 +19,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"fushion" ofType:@"mp3"]];
+    backgroundMusic = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+    [backgroundMusic play];
+    backgroundMusic.numberOfLoops=-1;
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -28,5 +33,17 @@
 }
 
 
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    
+    
+}
+
+-(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
+
+}
+
+-(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
+
+}
 
 @end

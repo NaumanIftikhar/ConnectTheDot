@@ -8,6 +8,7 @@
 
 #import "VectorDrawingCanvasViewController.h"
 
+
 @interface VectorDrawingCanvasViewController ()
 
 @property (nonatomic, strong) UIView *contentView;
@@ -514,12 +515,14 @@
 
 -(void)PlayVideo{
     
+    [self.view setUserInteractionEnabled:NO];
+    
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(playbackFinished)
                                                  name:MPMoviePlayerPlaybackDidFinishNotification object:nil];
     
     
-    UIView *holdingView = [self.contentView viewWithTag:2111];
+    holdingView = [self.contentView viewWithTag:2111];
 
     [holdingView addSubview:self.imageView];
     
@@ -640,6 +643,7 @@
     
     
 }
+
 
 
 @end

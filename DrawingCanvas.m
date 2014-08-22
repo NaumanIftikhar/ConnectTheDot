@@ -381,7 +381,6 @@
 
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
     
-    
     NSLog(@"touchesEndedCalled");
     NSLog(@"%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d ",dotImage1.tag,dotImage2.tag,dotImage3.tag,dotImage4.tag,dotImage5.tag,dotImage6.tag,dotImage7.tag,dotImage8.tag,dotImage9.tag,dotImage10.tag,dotImage11.tag, dotImage12.tag, dotImage13.tag, dotImage14.tag, dotImage15.tag);
     
@@ -480,6 +479,7 @@
         
         NSLog(@"if is no");
     }       */
+    
 }
 
 
@@ -491,6 +491,7 @@
     [self ResetButton:self];
     [self.moviePlayer stop];
     
+    [drawImage setUserInteractionEnabled:NO];
 }
 
 -(void)playbackFinished{
@@ -505,6 +506,11 @@
 -(void)PlayVideo{
     
     //-----------------V I D E O-------------------
+    
+ //   [self.moviePlayer.view setUserInteractionEnabled:NO];
+    
+//    [drawImage setUserInteractionEnabled:NO];
+    [self.viewForBaselineLayout setUserInteractionEnabled:NO];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(playbackFinished)

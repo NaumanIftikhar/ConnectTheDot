@@ -81,7 +81,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="NLW-Il-T4M" kind="modal" id="v3F-8y-XD5"/>
+                                    <segue destination="XID-P2-6k6" kind="modal" id="G8u-ea-tNp"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Kr-zt-CbZ">
@@ -311,44 +311,43 @@
             </objects>
             <point key="canvasLocation" x="1166" y="885"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="7Rq-z3-XJq">
+        <!--Last Screen-->
+        <scene sceneID="ITP-Z3-Yc7">
             <objects>
-                <viewController id="NLW-Il-T4M" sceneMemberID="viewController">
+                <viewController id="XID-P2-6k6" customClass="LastScreen" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="W0G-zS-Qky"/>
-                        <viewControllerLayoutGuide type="bottom" id="nDa-jw-eUe"/>
+                        <viewControllerLayoutGuide type="top" id="7Z1-4S-fYh"/>
+                        <viewControllerLayoutGuide type="bottom" id="lVm-6B-mqJ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7SC-u3-YCb">
+                    <view key="view" contentMode="scaleToFill" id="5Ef-fX-lYF">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="game screen bg 18Aug.png" translatesAutoresizingMaskIntoConstraints="NO" id="HfU-Hh-3c3">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msgs screen 19Aug.png" translatesAutoresizingMaskIntoConstraints="NO" id="IL1-cZ-VPi">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="game screen bg 18Aug.png" translatesAutoresizingMaskIntoConstraints="NO" id="p0I-hE-wlh">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agA-ue-F1I">
-                                <rect key="frame" x="563" y="20" width="185" height="96"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msgs screen 19Aug.png" translatesAutoresizingMaskIntoConstraints="NO" id="kvJ-K5-s3K">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdx-4l-uki">
+                                <rect key="frame" x="540" y="20" width="208" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="reset 18Aug.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="Kj0-UA-UXr"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="Mni-qk-x7Y"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <nil key="simulatedStatusBarMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Y80-d1-kuc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T69-0h-hYv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2289" y="72"/>
+            <point key="canvasLocation" x="2340" y="-163"/>
         </scene>
         <!--VectorDrawingCanvas-->
         <scene sceneID="R0N-HH-ExL">
@@ -477,7 +476,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="NLW-Il-T4M" kind="modal" id="Ogh-0g-3ZO"/>
+                                    <segue destination="XID-P2-6k6" kind="modal" id="MGn-fL-MVR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2yf-UC-fhy">
@@ -497,7 +496,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="io9-YD-bvL"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" identifier="WhiteScreenToMain" id="io9-YD-bvL"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot-02 18Aug.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hrt-Y8-TEp">
@@ -633,7 +632,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="lj7-Uz-nXj"/>
-        <segue reference="v3F-8y-XD5"/>
+        <segue reference="io9-YD-bvL"/>
+        <segue reference="MGn-fL-MVR"/>
     </inferredMetricsTieBreakers>
 </document>
